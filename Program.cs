@@ -1,14 +1,15 @@
-﻿namespace IMAT_GitTest
+namespace IMAT_GitTest
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(2,7);
+            Console.WriteLine(Add(2, 7));
+        }
+
+        static int Add(int x, int y)
+        {
+            return x + y;
         }
     }
-     static int Add(int x, int y)
-     {
-         return x + y
-         }
 }
