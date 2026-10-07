@@ -22,7 +22,7 @@ namespace IMAT_GitTest
         {
             if (y==0)
             {
-                Console.WriteLine("Error"); 
+                Console.WriteLine($"Error , valores: {x} e {y}"); 
                 return 0; 
                 }
             else 
