@@ -4,8 +4,8 @@ namespace IMAT_GitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(2, 7));
-            Console.WriteLine(Multiply(2, 9));
+            Console.WriteLine(Divide(x,y));
+            
         }
 
         static int Add(int x, int y)
@@ -16,6 +16,10 @@ namespace IMAT_GitTest
         static int Multiply(int x, int y)
         {
             return x*y;
+            }
+        static int Divide(int x, int y)
+        {
+            return x/y;
             }
     }
 }
