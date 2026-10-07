@@ -20,7 +20,15 @@ namespace IMAT_GitTest
             }
         static int Divide(int x, int y)
         {
-            return x / y;
+            if (y==0)
+            {
+                Console.WriteLine("Error"); 
+                return 0; 
+                }
+            else 
+            {
+                return x / y;
+            }
         }
         static int Subtract(int x, int y)
         {
