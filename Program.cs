@@ -4,7 +4,7 @@ namespace IMAT_GitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Divide(x,y));
+            Console.WriteLine(Divide(2,9));
             
         }
 
